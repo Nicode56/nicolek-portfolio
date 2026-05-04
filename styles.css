@@ -6,13 +6,6 @@ body {
   color: #e6edf3;
 }
 
-section {
-  padding: 80px 20px;
-  text-align: center;
-  max-width: 900px;
-  margin: auto;
-}
-
 .hero h1 {
   font-size: 3rem;
 }
@@ -32,6 +25,11 @@ a {
   background: #3b82f6;
 }
 
+section {
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: auto;
+}
 
 .projects {
   display: grid;
@@ -44,6 +42,7 @@ a {
   background: #161b22;
   padding: 20px;
   border-radius: 12px;
+  margin-top: 20px;
   transition: 0.3s;
   border: 1px solid transparent;
 }
@@ -56,12 +55,30 @@ a {
 .featured {
   color: #58a6ff;
   font-size: 0.8rem;
+  margin-left: 8px;
+}
+
+.tags {
+  margin: 10px 0;
 }
 
 .tags span {
   background: #0f1117;
   padding: 5px 10px;
-  margin: 5px;
+  margin-right: 6px;
   border-radius: 6px;
   font-size: 0.8rem;
 }
+
+.links a {
+  margin-right: 10px;
+  color: #58a6ff;
+}
+
+
+
+
+
+
+
+
