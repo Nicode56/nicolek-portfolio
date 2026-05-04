@@ -7,31 +7,61 @@ body {
 }
 
 section {
-  padding: 60px 20px;
+  padding: 80px 20px;
   text-align: center;
+  max-width: 900px;
+  margin: auto;
 }
 
 .hero h1 {
   font-size: 3rem;
 }
 
-.buttons a {
-  margin: 10px;
-  padding: 10px 20px;
-  background: #58a6ff;
-  color: white;
+a {
   text-decoration: none;
+}
+
+.buttons a {
+  background: #58a6ff;
+  padding: 10px 16px;
   border-radius: 8px;
+  color: white;
+}
+
+.buttons a:hover {
+  background: #3b82f6;
+}
+
+
+.projects {
+  display: grid;
+  gap: 20px;
+  max-width: 900px;
+  margin: auto;
 }
 
 .project-card {
   background: #161b22;
-  margin: 20px auto;
   padding: 20px;
   border-radius: 12px;
-  max-width: 400px;
+  transition: 0.3s;
+  border: 1px solid transparent;
 }
 
-.project-card h3 {
-  margin-top: 0;
+.project-card:hover {
+  transform: translateY(-5px);
+  border: 1px solid #58a6ff;
+}
+
+.featured {
+  color: #58a6ff;
+  font-size: 0.8rem;
+}
+
+.tags span {
+  background: #0f1117;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 6px;
+  font-size: 0.8rem;
 }
