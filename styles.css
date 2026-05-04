@@ -4,19 +4,33 @@ body {
   font-family: Arial, sans-serif;
   text-align: center;
   line-height: 1.6;
-  background: #0f1117;
+  background: radial-gradient(circle at top, #111827,#0f1117);
   color: #e6edf3;
 }
 
 h1 {
   margin-bottom: 10px;
   font-size: 3rem;
+  background: linear-gradient(90deg, #58a6ff, #8b5cf6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 h2 {
+  position: relative;
+  display: inline-block;
   margin-bottom: 20px;
   font-size: 1.8rem;
   color: #9da5b4;
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 2px;
+  background: #58a6ff;
+  margin: 8px auto 0;
 }
 
 p {
@@ -93,7 +107,7 @@ section:not(:last-child) {
 .project-card:hover {
   transform: translateY(-6px);
   border: 1px solid #58a6ff;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 15px rgba(88, 166, 255, 0.2);
 }
 
 .featured {
