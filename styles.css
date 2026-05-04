@@ -1,3 +1,27 @@
+navbar {
+  background: #0f1117;
+  padding: 10px 20px;
+  text-align: right;
+}
+
+.link-button {
+  display: inline-block;
+  margin: 8px;
+  padding: 10px 16px;
+  border-radius: 8px;
+  background: #1c2530;
+  color: #dbe3ec;
+  border: 1px solid #2a3542;
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: 0.2s ease;
+}
+
+.link-button:hover {
+  background: #253040;
+  border-color: #3b82f6;
+  transform: translateY(-1px);
+}
 
 body {
   margin: 0;
